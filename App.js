@@ -21,7 +21,7 @@ Ext.define('PortfolioItemCostTracking', {
     items: [],
 
     portfolioItemRollupData: {},
-
+ items: [{ xtype: 'rallybutton', text: 'Click me', handler: function () { Ext.Msg.alert('Button', 'You clicked me APEP'); } }],
     launch: function() {
 
         //ToDO: check for RPM?
